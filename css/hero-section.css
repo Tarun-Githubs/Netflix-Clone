@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: net-rg;
+  font-weight: 400;
+}
+
+body{
+  background: black;
+}
+
+@font-face {
+  font-family: net-rg;
+  src: url('../font/NetflixSans_W_Rg.woff2');
+}
+
+@font-face {
+  font-family: net-med;
+  src: url('../font/NetflixSans_W_Md.woff2');
+}
+
+@font-face {
+  font-family: net-black;
+  src: url('../font/NetflixSans_W_Blk.woff2');
+}
+
+.header{
+  width: 100%;
+  height: 92px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  z-index: 1;
+  padding: 16px 0px;
+  overflow: hidden;
+}
+
+.container{
+  width: 1200px;
+  margin: auto;
+}
+
+.logo-name{
+  z-index: 3;
+  float: left;
+}
+
+.logo-name img{
+  width: 148px;
+  margin: 8px 0px;
+}
+
+.signin{
+  float: right;
+  margin: 8px;
+  padding: 8px 28px;
+  border-radius: 4px;
+  background: #e50914;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+select{
+  float: right;
+  margin: 8px;
+  padding: 8px 28px;
+  background: none;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+option{
+  font-size: 16px;
+  color: black;
+}
+
+.hero-section{
+  height: 700px;
+  overflow: hidden;
+}
+
+.hero-section img{
+  width: 100%;
+  height: 100%;
+  transform: scale(1.25 ) translateY(-10%);
+  z-index: -2;
+}
+
+.bg-color{
+  height: 700px;
+  background: rgba(0 0 0 / 40%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.text-contain{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  color: white;
+  text-align: center;
+}
+
+.text-contain h1{
+  width: 1200px;
+  font-size: 48px;
+  font-family: net-black;
+  font-weight: 900;
+}
+
+.tagline{
+  font-size: 24px;
+  margin: 24px;
+}
+
+.sub-heading{
+  font-size: 20px;
+  margin-top: 24px;
+}
+
+input{
+  width: 300px;
+  padding: 16px 12px;
+  margin-top: 20px;
+  border-radius: 4px;
+  background: #131110;
+  border: 1px solid white;
+  color: white;
+}
+
+::placeholder{
+  color: white;
+}
+
+.get-started{
+  width: auto;
+  font-size: 20px;
+  padding: 12px 54px;
+  margin: 20px 10px;
+  background: #e50914;
+  color: white;
+  border: 1px solid #e50914;
+  border-radius: 4px;
+  cursor: pointer;
+}
